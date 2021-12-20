@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.top{
+    display: flex;
+    max-width:  1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+section.main{
+    background-image: url('/img/bg.svg');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 650px;
+
+}
+.menu-topo img{
+    height: 55%;
+}
+.menu-topo{
+    display: flex;
+    padding-top: 22px;
+    margin-left: 100px;
+    width: 100%;
+}
+.item-menu{
+    text-align: right;
+    width: 100%;
+   
+}
+.item-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.item-menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+}
+.item-menu a.item-contato{
+    background-color: #0F3FD3;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.item-menu a.item-contato:hover{
+    border: 0;
+}
+
+.mac{
+    display: block;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+}
+.mac h1{
+    font-size: 40px;
+}
+
+.nav-barra{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.nav-barra img{
+    height: 80px;
+}
+
+
+section.porquenos{
+    margin: 140px;
+    background-color: #FBFCFE;
+}
+section.porquenos h2{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-left: 20px;
+}
+section.porquenos p{
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    color:#7E92AC;
+    
+}
+section.porquenos .para{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    color:#7E92AC
+}
+.sobre{
+    display: flex;
+    text-align: left;
+}
+
+.diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    margin-right: 2%;
+    padding: 10px 25px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.diferenciais h3{
+    font-size: 20px;
+    margin: 20px 0;
+    color: black;
+}
+
+section.banner{
+    background-image: url(/img/banner.svg);
+    padding: 20px 10px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+section.banner h4{
+    font-weight:normal;
+    margin: 10px 0;
+}
+section.banner h2{
+    font-size: 30px;
+}
+section.banner a{
+    font-size: 17px;
+    padding: 8px 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: 190px;
+    height: 38px;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+    border-radius:7px;
+}
+
+footer{
+    border: solid 0.5px;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.end i{
+    font-size: 32px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
